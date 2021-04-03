@@ -1,0 +1,48 @@
+.cardStyle article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.cardStyle button {
+  border: none;
+  background: none;
+}
+
+.cardStyle button svg {
+  color: rgb(17, 182, 204);
+  transition: 0.2s;
+}
+.cardStyle button svg:hover {
+  color: rgb(7, 92, 104);
+}
+.cardStyle article p {
+  margin: 5px 20px 0 0;
+  color: rgb(116, 107, 124);
+  font-weight: bold;
+}
+.CardMargBotton {
+  margin-bottom: 25px;
+}
+h4 {
+  color: rgb(102, 97, 97);
+  font-weight: bold;
+  margin: auto 20px;
+}
+.btnCad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: rgb(44, 193, 212);
+  transition: 0.5s;
+  border: none;
+}
+.btnCad:hover {
+  background: rgb(37, 168, 185);
+}
+.btnCad:focus {
+  background: rgb(37, 168, 185);
+}
+.btnCad:active {
+  background: rgb(30, 139, 153) !important;
+}
